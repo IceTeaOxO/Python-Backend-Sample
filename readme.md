@@ -13,3 +13,8 @@ models新增DB model，並在models/__init__.py引入
 controller負責處理API request
 
 若有需要可另外新增services
+
+## dockerfile
+```
+docker build -t imageName .
+```

@@ -14,6 +14,8 @@ controller負責處理API request
 
 若有需要可另外新增services
 
+push到main branch會自動跑github action，可以撰寫test檢測是否運作正常
+
 ## dockerfile
 ```
 docker build -t imageName .

@@ -31,5 +31,5 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest  # 執行單元測試，如果有的話
+        pytest tests/  # 執行測試
 
